@@ -1,0 +1,9 @@
+{
+	"id": "com.matbee.weather",
+	"version": "1.0.5",
+	"vendor": "Matbee",
+	"type": "web",
+	"main": "index.html",
+	"title": "The Weather Outside",
+	"icon": "clouds.png"
+}

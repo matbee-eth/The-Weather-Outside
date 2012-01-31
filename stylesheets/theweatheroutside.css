@@ -1,0 +1,218 @@
+body
+{
+ 	/*font-family:"Times New Roman", Times, serif;*/
+ 	
+}
+
+body.palm-default {
+	/*background-image: url(../images/sunny.jpg);*/
+	color: #FFF;
+}
+
+/*
+* 
+*/
+
+.temperature {
+	text-align: center;
+	font-size: 4em;
+	clear: both;
+	width: 100%;
+	height: 100px;
+}
+
+.forecast {
+	text-align: center;
+	font-size: 2em;
+	width: 100%;
+	height: 100px;
+	}
+
+.matbeeTitle {
+	margin-left: 20px;
+		color: white;
+		font-size: 1.5em;
+	}
+.matbeeLabel {
+	margin-left: 10px;
+	font-weight: bold;
+		color: lightgray;
+		font-size: 1em;
+	}
+.tempstat {
+	height: 200px;
+	background: #5F7783;
+	border: 1px solid red;
+	width: 320px;
+	 margin-left: auto; 
+	 margin-right: auto;
+	 text-align: center;
+}
+.left {
+	margin:0 auto;
+	width: 50px;
+	 margin-left: auto; 
+	 margin-right: auto;
+	height: 200px;
+	border-radius: 10px 10px 10px 10px;
+	border: 1px solid red;
+	float: right;
+}
+.right {
+	margin:0 auto;
+	width: 50px;
+	 margin-left: auto; 
+	 margin-right: auto;
+	height: 200px;
+	border-radius: 10px 10px 10px 10px;
+	border: 1px solid red;
+	float: right;
+}	
+.middle {
+	margin:0 auto;
+	width: 50px;
+	 margin-left: auto; 
+	 margin-right: auto;
+	height: 100px;
+	border-radius: 10px 10px 10px 10px;
+	border: 1px solid red;
+	float: right;
+}
+
+.image {
+	width: 320px;
+	height: 120px;
+	clear: both;
+	text-align: center;
+}
+
+.temperatureDiv {
+}
+
+.highTemperature {
+	font-size: 1.5em;
+	margin-left: 20px;
+}
+
+.lowTemperature {
+	font-size: 1.5em;
+	margin-left: 20px;
+}
+
+.weatherElements {
+	font-size: 1.5em;
+	margin-left: 20px;
+}
+
+.weatherElements > * {
+	font-size: 1.5em;
+	margin-left: 20px;
+}
+
+.featureScroller {
+    height: 400px;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-left:auto;
+	margin-right:auto;
+}
+
+
+/* A scroller needs a container element */
+.scrollerContainer {
+    width:  1340px;
+    max-width: 1340px;
+    height: 450px;
+}
+
+.FirstSetupContainer {
+    height: 450px;
+}
+ 
+/* An item that is viewable in the scroll pane window */
+.scrollerItem {
+    float:     left;
+    width:     320px;
+    min-width: 320px;
+    height: 101%;
+    min-height: 101%;
+    max-height: 101%;
+    border-radius: 23px 23px 23px 23px;
+	background: #5F7783;
+	opacity: 0.85;
+}
+
+.mainItem {
+    float:     left;
+    width:     320px;
+    min-width: 320px;
+    height: 101%;
+    min-height: 101%;
+    max-height: 101%;
+    border-radius: 23px 23px 23px 23px;
+	background: #5F7783;
+	opacity: 0.85;
+}
+
+.scrollerItem.norm {
+		margin: 0px 20px 0px 0px;
+	}
+
+.scrollerItem.last {
+		margin: 0px -20px 0px 0px;
+}
+
+
+/* An item that is viewable in the scroll pane window */
+/*
+.headerItem {
+    font-size: 25px;
+    max-height: 35px;
+    text-align: left;
+    margin-right:auto;
+    margin-left:auto;
+}
+*/
+.header {
+	text-align: center;
+	font-size: 1em;
+	font-family: 'Myriad-Pro', 'Myriad', helvetica, arial, sans-serif;
+	background: #000;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.content {
+}
+
+.lineSeparator {
+	background: url(../images/lineseparator.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 5px;
+}
+
+/*
+* Hacks
+*/
+
+.palm-radiobutton 
+{
+  min-width: 0px;
+  display: -webkit-box;
+}
+
+.palm-radiobutton div 
+{
+  float: none;
+  -webkit-box-flex: 1;
+}
+
+.palm-radiobutton.two div 
+{
+  width: 50%;
+}
+
+.palm-radiobutton.three div 
+{
+  width: 33.34%;
+}

@@ -1,0 +1,21 @@
+[
+    {"source": "app/assistants/stage-assistant.js"},
+    {
+        "scenes": "Setup",
+        "source": "app/assistants/Setup-assistant.js"
+    },
+    {"source": "jkl-parsexml.js"},
+    {
+        "scenes": "test",
+        "source": "app/assistants/test-assistant.js"
+    },
+    {"source": "app/assistants/PickLocation-assistant.js"},
+    {
+        "scenes": "exhibition",
+        "source": "app/assistants/exhibition-assistant.js"
+    },
+    {
+        "scenes": "FirstStart",
+        "source": "app/assistants/FirstStart-assistant.js"
+    }
+]
